@@ -1,0 +1,91 @@
+body {
+	position: relative;
+	background-color: rgba(68, 30, 2, 0.7686274509803922);
+	font-family: monospace;
+}
+body, html {
+	height: 100%;
+}
+.instagram {
+	position: fixed;
+	bottom: 2%;
+	right: 2%;
+	z-index: 100;
+}
+.gmail {
+	position: fixed;
+	bottom: 2%;
+	right: 8%;
+	z-index: 100;
+	border-radius: 50px;
+}
+.navbar {
+	box-shadow: 3px 6px rgba(54, 64, 72, 0.48);
+}
+#section1 {
+	padding-top:90px;
+	background-image: url(../img/slide6.jpg);
+	margin-bottom: 5px;
+}
+#section2 {
+	padding-top:90px;
+	background-image: url(../img/seccion9.jpg);
+	margin-bottom: 5px;
+}
+#section3 {
+	padding-top:90px;
+	background-image: url(../img/seccion4.jpg);
+}
+.custom-section {
+	padding-bottom:60px;
+}
+.custom-bg {
+	/* Center and scale the image */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.col-lg-9 {
+	margin-top: 5%;
+}
+.col-lg-10 {
+	margin-top: 5%;
+}
+.col-xl-10 {
+	margin-top: 2.5%;
+}
+.card {
+	background-color: rgba(45, 48, 52, 0.9);
+	color: white;
+	text-align: justify;
+}
+.contact-link {
+	color: #84f79e !important;
+}
+
+/* Media Querys */
+@media only screen and (min-width: 768px) {
+	.custom-desktop-bg {
+		/* Full height */
+		height: 100%;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.instagram, .gmail {
+		width: 40px;
+	}
+	.gmail {
+		right: 18%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.gmail {
+		right: 15%;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+	.gmail {
+		right: 10%;
+	}
+}
