@@ -89,6 +89,7 @@ h1 {
 	h1 {
 		font-size: 15px;
 		border-radius: 3px !important;
+		padding: 5px;
 	}
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
