@@ -28,3 +28,7 @@ document.querySelectorAll(".open-modal").forEach(el => {
 if (module.hot) {
   module.hot.accept()
 }
+
+document.addEventListener("DOMContentLoaded", function() {
+  document.getElementById("current-year").textContent = new Date().getFullYear();
+});
